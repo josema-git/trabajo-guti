@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     background-color: #03142d;
@@ -50,7 +51,6 @@ a{
     text-align: center;
     color: white;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 section{
     width: 100%;
@@ -69,14 +69,12 @@ section{
     color: white;
     font-size: 500%;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section2 p{
     text-align: center;
     color: white;
     font-size: 175%;
     font-weight: 600;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     justify-self: end;
     padding: 5% 10%;
@@ -96,7 +94,6 @@ section{
     text-align: center;
     font-size: 500%;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     padding: 10% 5%;
 }
@@ -119,7 +116,6 @@ section{
     text-align: start;
     font-size: 500%;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     padding: 10% 5%;
 }
@@ -205,7 +201,6 @@ section{
     text-align: center;
     font-size: 500%;
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     padding: 5% 5%;
 }
@@ -232,7 +227,7 @@ section{
 }
 .section7 {
     background-color: #00ADEF;
-    color: #555;
+    color: white;
     text-align: center;
     height: auto;
   }
@@ -240,6 +235,8 @@ section{
   .section7 h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
+    padding: 5%;
+    width: 90%;
   }
   
   .flora-content {
@@ -257,7 +254,7 @@ section{
   }
   
   .flora-images img {
-    width: 40%; /* Ajusta el tamaño de las imágenes */
+    width: 40%;
     height: auto;
   }
   
@@ -276,10 +273,11 @@ section{
   }
   
   .section8 {
-    background-color: #003258; /* Color de fondo */
-    color: #FFFFFF; /* Color del texto */
+    background-color: #003258; 
+    color: #FFFFFF;
     text-align: center;
-    padding: 50px 20px;
+    width: 90%;
+    padding: 5%;
   }
   
   .section8 h1 {
@@ -298,7 +296,7 @@ section{
   .danger-text {
     max-width: 600px;
     text-align: left;
-    color: #FFFFFF; /* Color del texto */
+    color: #FFFFFF;
   }
   
   .danger-text p {
@@ -314,12 +312,27 @@ section{
   }
   
   .danger-images img {
-    width: 150px; /* Ajusta el tamaño de las imágenes */
+    width: 150px;
     height: auto;
   }
   
   .danger-images h2 {
     font-size: 1.5em;
     margin-top: 10px;
-    color: #FFFFFF; /* Color del texto */
+    color: #FFFFFF;
+  }
+  .section9{
+    background-color: #00ADEF;
+    height: auto;
+  }
+  .section9 h1{
+    text-align: center;
+    font-size: 500%;
+    font-weight: 700;
+    color: white;
+    padding: 10% 5%;
+  }
+  video{
+    width: 100%;
+    height: 100%;
   }
